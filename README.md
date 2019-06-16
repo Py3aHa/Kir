@@ -38,7 +38,8 @@ h1 {
 }
 ```
 
-```# ~/app/__init__.py
+```python
+# ~/app/__init__.py
 from flask import Flask
 
 app = Flask(name)
