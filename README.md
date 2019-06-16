@@ -28,8 +28,7 @@
 <br>
 <br>
  
-<br>
-Нужно написать три фигнюльки и на той же строке язык, который используешь
+<br>Нужно написать три фигнюльки и на той же строке язык, который используешь
 ```scss /* или css */
 
 @import "bower_components/tree-normalize/generic.normalize";
@@ -39,9 +38,7 @@ h1 {
 }
 ```
 
-```
-
-# ~/app/__init__.py
+```# ~/app/__init__.py
 from flask import Flask
 
 app = Flask(name)
