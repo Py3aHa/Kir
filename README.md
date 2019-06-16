@@ -39,6 +39,25 @@ h1 {
 }
 ```
 
+```
+
+# ~/app/__init__.py
+from flask import Flask
+
+app = Flask(name)
+service = YourService(app) # app is the flask object that is running
+service.init_app() # initializing the package/service once the app starts
+
+#...
+
+def create_app(): # this function is being ran in run.py which starts the server
+
+    app = Flask(name)
+    service.init_app()
+    return app
+```
+
+
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
